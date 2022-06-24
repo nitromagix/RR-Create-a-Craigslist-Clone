@@ -3,7 +3,7 @@ import React from "react";
 function Search(props) {
   return (
     <div className={props.className}>
-      <span>Search</span>
+      <h1>Search</h1>
     </div>
   );
 }

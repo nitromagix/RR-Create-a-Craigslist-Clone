@@ -5,6 +5,20 @@ function Sidebar(props) {
   return (
     <div className={props.className}>
       <h1>Sidebar</h1>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
       <Help className="help" />
     </div>
   );
