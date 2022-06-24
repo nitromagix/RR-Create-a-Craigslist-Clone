@@ -3,7 +3,7 @@
   display: grid;
   grid-template-rows: 80px 70px 4fr 4fr;
   grid-template-columns: 1fr 2fr 2fr;
-  grid-template-areas:  "sidebar searchbar searchbar"
+  grid-template-areas:  "sidebar search search"
                         "sidebar directory directory"
                         "sidebar gallery gallery"
                         "sidebar gallery gallery"
@@ -29,22 +29,33 @@ img {
   border: 1px solid black;
 }
 
-.posting {
+.card {
   margin: 1vw;
   grid-area: posting;
   float: left;
-  width: 45%;
+  width: 40%;
   height: 45%;
   border: 1px solid black;
 }
 
-.searchbar {
-  font-size: 5vh;
+.search {
+  /* font-size: 5vh; */
   grid-area: searchbar;
   border: 1px solid black;
 }
 
-.sideBar {
+.sidebar {
   grid-area: sidebar;
   border: 1px solid black;
+}
+
+.floatLeft
+{
+   float: left;
+}
+
+.clearfix::after {
+   content: "";
+   clear: both;
+   display: table;
 }
